@@ -5,7 +5,7 @@ export default class App extends React.Component {
 constructor(props) {
   super(props);
   this.state = {
-   sorteio: [], 
+   //sorteio: [], 
    contador:'Boa Sorte!',
    sorteador:[],
    titulo: "Sorteio 6 números da MegaSenna"
@@ -19,7 +19,7 @@ constructor(props) {
 // Atualizando o contador
  atualiza(num) {
   this.setState( {contador: this.state.contador = num})
-  this.setState( {sorteio: this.state.contador = num})
+  //this.setState( {sorteio: this.state.contador = num})
 
 }
 
